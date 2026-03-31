@@ -1,6 +1,6 @@
 # Hotel Review Dataset
 
-Korean hotel review dataset for crawling practice in Text Mining Techniques course (2026 Spring).
+Korean hotel review dataset for crawling practice in Text Analysis course (2026 Spring).
 
 400 synthesized hotel reviews across 4 pages (100 reviews per page).
 
