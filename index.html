@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>호텔 리뷰 데이터셋</title><style>* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; background: #f5f6fa; color: #333; }
+header { background: #2c3e6b; color: white; padding: 28px 40px; }
+header h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 6px; }
+header p { font-size: 0.92rem; opacity: 0.85; }
+nav { background: #fff; border-bottom: 1px solid #dde; padding: 12px 40px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+nav span { font-size: 0.85rem; color: #888; margin-right: 6px; }
+nav a { display: inline-block; padding: 5px 14px; border-radius: 20px; font-size: 0.85rem; text-decoration: none; background: #eef0f8; color: #2c3e6b; border: 1px solid #c8cde8; }
+nav a:hover, nav a.active { background: #2c3e6b; color: white; }
+.container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+.info-box { background: #fff; border: 1px solid #dde; border-radius: 8px; padding: 16px 20px; margin-bottom: 20px; font-size: 0.88rem; color: #555; line-height: 1.8; }
+.info-box strong { color: #2c3e6b; } .info-box a { color: #2c3e6b; }
+.page-info { font-size: 0.88rem; color: #666; margin-bottom: 12px; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07); font-size: 0.84rem; }
+thead tr { background: #2c3e6b; color: white; }
+thead th { padding: 11px 10px; text-align: left; font-weight: 600; white-space: nowrap; }
+tbody tr:nth-child(even) { background: #f8f9fc; }
+tbody tr:hover { background: #eef0f8; }
+tbody td { padding: 9px 10px; border-bottom: 1px solid #eee; vertical-align: top; line-height: 1.5; }
+td.contents { max-width: 420px; word-break: break-all; }
+.badge-4 { display:inline-block;padding:2px 8px;border-radius:10px;font-size:0.78rem;font-weight:600;background:#e8f0fe;color:#1a56b0; }
+.badge-5 { display:inline-block;padding:2px 8px;border-radius:10px;font-size:0.78rem;font-weight:600;background:#fde8f0;color:#b01a56; }
+.star { color: #f5a623; }
+footer { text-align: center; padding: 30px; font-size: 0.82rem; color: #aaa; margin-top: 40px; }</style></head>
+<body>
+<header><h1>🏨 호텔 리뷰 데이터셋</h1><p>텍스트분석기법 개인 과제용 크롤링 실습 데이터</p></header>
+<nav><span>페이지 이동:</span><a href="index.html">홈</a><a href="reviews_1.html">페이지 1</a><a href="reviews_2.html">페이지 2</a><a href="reviews_3.html">페이지 3</a><a href="reviews_4.html">페이지 4</a></nav>
+<div class="container"><div class="info-box">
+<strong>📋 데이터 안내</strong><br>
+서울 소재 가상 호텔 리뷰 데이터입니다. 총 <strong>400건</strong>의 리뷰가 4개 페이지에 100건씩 수록되어 있습니다.<br><br>
+<strong>컬럼 설명</strong><br>
+• <strong>별점 (stars)</strong>: 리뷰어가 부여한 별점 (1~5)<br>
+• <strong>작성일 (dates)</strong>: 리뷰 작성 연월<br>
+• <strong>제목 (titles)</strong>: 리뷰 제목<br>
+• <strong>내용 (contents)</strong>: 리뷰 본문<br>
+• <strong>여행유형 (types)</strong>: 커플 / 가족 / 친구 / 비지니스 / 단독<br>
+• <strong>사진등록 (photos)</strong>: 사진 첨부 여부 (있음 / 없음)<br>
+• <strong>호텔등급 (grade)</strong>: 4성급 / 5성급<br>
+• <strong>호텔순위 (ranking)</strong>: 1~15위<br><br>
+<strong>페이지 구성</strong><br>• <a href="reviews_1.html">페이지 1</a>: 1번 ~ 100번 리뷰 (100건)<br>• <a href="reviews_2.html">페이지 2</a>: 101번 ~ 200번 리뷰 (100건)<br>• <a href="reviews_3.html">페이지 3</a>: 201번 ~ 300번 리뷰 (100건)<br>• <a href="reviews_4.html">페이지 4</a>: 301번 ~ 400번 리뷰 (100건)<br>
+</div></div>
+<footer>텍스트분석기법 &nbsp;|&nbsp; 2026-1학기</footer>
+</body></html>

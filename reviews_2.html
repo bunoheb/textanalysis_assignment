@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>호텔 리뷰 데이터셋 - 페이지 2</title><style>* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; background: #f5f6fa; color: #333; }
+header { background: #2c3e6b; color: white; padding: 28px 40px; }
+header h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 6px; }
+header p { font-size: 0.92rem; opacity: 0.85; }
+nav { background: #fff; border-bottom: 1px solid #dde; padding: 12px 40px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+nav span { font-size: 0.85rem; color: #888; margin-right: 6px; }
+nav a { display: inline-block; padding: 5px 14px; border-radius: 20px; font-size: 0.85rem; text-decoration: none; background: #eef0f8; color: #2c3e6b; border: 1px solid #c8cde8; }
+nav a:hover, nav a.active { background: #2c3e6b; color: white; }
+.container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+.info-box { background: #fff; border: 1px solid #dde; border-radius: 8px; padding: 16px 20px; margin-bottom: 20px; font-size: 0.88rem; color: #555; line-height: 1.8; }
+.info-box strong { color: #2c3e6b; } .info-box a { color: #2c3e6b; }
+.page-info { font-size: 0.88rem; color: #666; margin-bottom: 12px; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07); font-size: 0.84rem; }
+thead tr { background: #2c3e6b; color: white; }
+thead th { padding: 11px 10px; text-align: left; font-weight: 600; white-space: nowrap; }
+tbody tr:nth-child(even) { background: #f8f9fc; }
+tbody tr:hover { background: #eef0f8; }
+tbody td { padding: 9px 10px; border-bottom: 1px solid #eee; vertical-align: top; line-height: 1.5; }
+td.contents { max-width: 420px; word-break: break-all; }
+.badge-4 { display:inline-block;padding:2px 8px;border-radius:10px;font-size:0.78rem;font-weight:600;background:#e8f0fe;color:#1a56b0; }
+.badge-5 { display:inline-block;padding:2px 8px;border-radius:10px;font-size:0.78rem;font-weight:600;background:#fde8f0;color:#b01a56; }
+.star { color: #f5a623; }
+footer { text-align: center; padding: 30px; font-size: 0.82rem; color: #aaa; margin-top: 40px; }</style></head>
+<body>
+<header><h1>🏨 호텔 리뷰 데이터셋</h1><p>텍스트분석기법 개인 과제용 크롤링 실습 데이터</p></header>
+<nav><span>페이지 이동:</span><a href="index.html">홈</a><a href="reviews_1.html">페이지 1</a><a href="reviews_2.html" class="active">페이지 2</a><a href="reviews_3.html">페이지 3</a><a href="reviews_4.html">페이지 4</a></nav>
+<div class="container">
+<p class="page-info">페이지 2 / 4 &nbsp;·&nbsp; 101번 ~ 200번 리뷰 (100건)</p>
+<table><thead><tr>
+<th>별점</th><th>작성일</th><th>제목</th><th>내용</th>
+<th>여행유형</th><th>사진등록</th><th>호텔등급</th><th>호텔순위</th>
+</tr></thead><tbody><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 2월</td>
+<td>프로포즈 성공했어요💍</td><td class="contents">여기서 프로포즈했는데 완벽했어요ㅠㅠ 직원분들이 미리 연락해서 꽃과 반지 세팅까지 도와주셨어요 여자친구가 엄청 울었어요ㅋㅋ 방도 너무 예쁘고 저녁 룸서비스도 맛있었어요 평생 잊지 못할 날을 만들어준 호텔이에요 감사합니다💕</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>1</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 1월</td>
+<td>입장하는 순간부터 달라요</td><td class="contents">로비에 들어서는 순간부터 분위기가 달라요 꽃장식이랑 향기가 진짜 고급스러웠어요 직원분들 유니폼도 멋있고 응대가 너무 세련됐어요 방은 말할것도없고 조식때 라이브 피아노 연주가 있어서 깜짝놀랐어요ㅎㅎ 특별한 날엔 역시 5성급이에요</td><td>커플</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>6</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 1월</td>
+<td>4성급의 자존심이랄까요</td><td class="contents">5성급보다 더 좋다고는 못하지만 이 가격에 이 퀄리티면 진짜 최고예요 여자친구가 방 인테리어 보고 엄청 좋아했어요ㅋㅋ 침구가 부드럽고 베개 종류도 여러개라서 고를수있었어요 조식도 메뉴가 다양하고 신선했어요 다음에 또 올거예요</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>7</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 3월</td>
+<td>첫 여행이 여기라 다행이에요</td><td class="contents">남자친구랑 첫 여행인데 너무 잘 선택한것같아요 위치가 진짜 편해서 여기저기 다니기 좋았고 돌아와서 쉬기도 편했어요 직원분들이 첫여행이라고 하니까 사진도 찍어주시고 맛집도 알려주셔서 감동이었어요 추억 가득한 여행이었습니다😊</td><td>커플</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>8</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2020년 12월</td>
+<td>할머니 생신여행 대성공</td><td class="contents">할머니 생신여행으로 왔는데 할머니가 이런데 처음와보신다고 너무 좋아하셨어요ㅠㅠ 직원분들이 어르신 모시고 왔다고 더 친절하게 챙겨주셨어요 식당에서도 어르신 입맛에 맞는 음식 추천해주시고 방도 낮은 침대로 바꿔주셨어요 가족 모두 행복했던 여행이에요</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>2</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 3월</td>
+<td>초등학생 아이들 한강에 반했어요</td><td class="contents">아이들이 한강 처음봐서 완전 신났어요ㅋㅋㅋ 방에서 한강보면서 유람선 세는거 하다가 잠들었어요ㅎㅎ 조식도 아이들이 좋아하는 메뉴 많고 직원분이 아이들 이름 외워주셔서 둘째날엔 이름부르면서 인사해줬어요 감동이었어요 가족여행 강추해요</td><td>가족</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>5</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 4월</td>
+<td>강남 쇼핑 가족여행 완벽</td><td class="contents">엄마랑 딸이랑 셋이서 쇼핑여행 왔는데 너무 좋았어요ㅋㅋ 호텔 위치가 백화점 코앞이라 짐 맡겨놓고 쇼핑하고 들어와서 쉬고의 완벽한 반복이었어요 조식 먹고 쇼핑가서 저녁엔 맛집가고 진짜 알찬 여행이었어요 다음에도 강남오면 여기예요</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>9</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2020년 9월</td>
+<td>공원에서 피크닉까지 했어요🌿</td><td class="contents">공원 바로 옆이라 아침에 조식먹고 공원 산책갔어요 날씨좋은날 피크닉도 하고 아이들이 뛰어놀고 너무 즐거운 하루였어요 호텔로 들어오면 깨끗하게 씻고 편하게 쉬고 진짜 이상적인 가족여행이었어요 직원분들도 아이들 잘 챙겨주셨어요</td><td>가족</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>10</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2020년 6월</td>
+<td>취업 기념 여행이에요🎉</td><td class="contents">친구 둘이 동시에 취업해서 축하여행으로 왔어요ㅋㅋ 스위트룸이 너무 넓어서 둘이 춤췄어요ㅋㅋㅋ 룸서비스로 샴페인 시켜서 건배했고 조식도 잔뜩 먹었어요 진짜 잊지 못할 취업기념 여행이 됐어요 앞으로도 기념일엔 여기서 보낼거예요</td><td>친구</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>4</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 5월</td>
+<td>30대 생일파티 최고의 장소</td><td class="contents">30살 생일 맞이한 친구 데리고 왔는데 완전 대박이었어요 직원분들이 케이크에 불 켜고 생일노래 불러줬어요ㅋㅋ 친구가 울었어요ㅎㅎ 방에서 야경보면서 밤새 수다떨었어요 이런 특별한 경험을 선물해준 호텔에 감사해요</td><td>친구</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>3</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 11월</td>
+<td>이태원 감성 제대로 즐겼어요</td><td class="contents">해외에서 친구가 놀러와서 이태원 투어 베이스캠프로 여기 잡았어요 외국 친구가 이태원 분위기 너무 좋아했어요ㅎㅎ 호텔 인테리어도 독특하고 예뻐서 친구가 감탄했어요 위치도 최고라 저녁마다 근처 바 투어했어요 최고의 선택이었어요</td><td>친구</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>13</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 1월</td>
+<td>야경 보면서 치맥 후기ㅋㅋ</td><td class="contents">친구들이랑 야경 보면서 치맥하는게 소원이었는데 드디어 이뤘어요ㅋㅋ 방에서 치킨 시켜서 야경보면서 먹었는데 인생 치맥이었어요 직원분들이 치킨 어디서 시키냐고 친절하게 알려주셔서 감사했어요ㅎㅎ 다음에도 야경 보고 싶을때 또 올거예요</td><td>친구</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>12</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 10월</td>
+<td>해외 파트너사 임원 모시고</td><td class="contents">해외 파트너사 임원 모시고 왔는데 매우 만족하셨어요 영어 응대가 완벽하고 서비스가 세련됐어요 비즈니스 센터 시설도 좋고 회의실도 예약해서 사용했는데 편리했어요 좋은 인상 남겨서 계약도 잘 됐어요ㅎㅎ 비즈니스 접대용으로 최고예요</td><td>비지니스</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>2</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 8월</td>
+<td>출장 연속 3박 했는데 지치지않아요</td><td class="contents">강남에서 중요한 프로젝트라 3박 연속 출장왔어요 매일 저녁 지쳐서 들어오는데 호텔이 편해서 피로가 풀렸어요 조식이 매일 달라서 질리지 않았고 직원분들이 익숙한 얼굴 보는것처럼 친근하게 대해주셨어요 장기출장엔 여기가 딱이에요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>9</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 9월</td>
+<td>소규모 팀워크숍으로 왔어요</td><td class="contents">팀원 6명이랑 워크숍 목적으로 왔어요 회의실 대여도 가능하고 시설이 잘 갖춰져있었어요 저녁에 팀 회식도 레스토랑에서 했는데 음식 맛있고 분위기 좋았어요 팀원들 모두 만족했고 다음 워크숍도 여기서 하자는 얘기가 나왔어요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>7</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 11월</td>
+<td>생애 첫 5성급 혼자 도전</td><td class="contents">평생 한번쯤은 5성급에 혼자 묵어봐야겠다 싶어서 왔어요 처음엔 혼자라 어색할까봐 걱정했는데 직원분들이 너무 자연스럽게 대해주셔서 편했어요 저녁에 레스토랑에서 혼자 코스요리 먹었는데 인생 경험이었어요 다음에 또 도전할거예요ㅎㅎ</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>1</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2020년 6월</td>
+<td>이직 후 나 자신에게 선물</td><td class="contents">이직하고 첫 월급으로 나한테 선물했어요 2박이었는데 진짜 잘한 선택이에요 스파도 이용하고 조식도 느긋하게 먹고 수영장에서 수영도 했어요 일상의 스트레스가 싹 날아간 느낌이었어요 자신에게 선물하고 싶은분들 강추해요💆</td><td>단독</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>6</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 4월</td>
+<td>서울 역사여행 중에 들렀어요</td><td class="contents">경복궁 창덕궁 북촌 다 도보로 다녀왔어요 이렇게 접근성 좋은 숙소는 처음이에요 한옥 분위기가 여행의 분위기랑 너무 잘 맞았어요 조식이 한식으로 나왔는데 여행 컨셉이랑 딱이었어요 혼행하면서 서울 역사 제대로 알게된 여행이었어요</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>15</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 8월</td>
+<td>명동 데이트 숙소로 딱이에요</td><td class="contents">명동 데이트코스 잡고 숙소를 여기로 했어요 명동 한복판이라 이동이 너무 편했어요 남자친구가 쇼핑 많이 사줬는데 짐 호텔에 맡겨놓고 다니니까 편했어요ㅋㅋ 조식은 없지만 명동거리에 먹을게 많아서 오히려 좋았어요 다음 데이트 때도 여기 올거예요</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>11</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 1월</td>
+<td>아이 처음 서울 여행</td><td class="contents">초등 입학하는 아이 선물로 서울 여행 왔어요 아이가 높은 곳에서 서울 보는걸 너무 좋아했어요 뷰가 진짜 예뻐서 아이 눈이 초롱초롱해졌어요ㅋㅋ 직원분이 아이한테 서울 랜드마크 설명해주셔서 아이가 너무 좋아했어요 특별한 추억이 됐어요</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>12</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 3월</td>
+<td>창의적인 업무환경이 필요할때</td><td class="contents">광고회사 다니는데 크리에이티브 작업할때 여기서 작업해요ㅋㅋ 이태원 분위기가 영감을 주는것같아요 호텔 인테리어도 독특하고 감각적이어서 아이디어가 잘 나와요 와이파이도 빠르고 조용해서 집중도 잘 되고요 특이한 출장 스타일이지만 효과 있어요ㅎㅎ</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>13</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 11월</td>
+<td>수능 끝나고 첫 여행</td><td class="contents">수능 끝나고 친구들이랑 첫 여행으로 왔어요ㅋㅋ 아직 미성년자라 걱정했는데 직원분들이 친절하게 응대해주셨어요 가든뷰 보면서 수능 얘기하고 앞으로 계획 얘기하고 너무 의미있는 여행이었어요 어른이 되면 더 좋은 호텔 와보자고 약속했어요ㅎㅎ</td><td>친구</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>14</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2023년 4월</td>
+<td>5성급치고는 아쉬운 부분이</td><td class="contents">친구들이랑 왔는데 시설은 당연히 좋죠 근데 5성급이면 이 정도가 기본이잖아요 좀 더 특별한 무언가를 기대했는데 음 딱히 없었어요 조식은 훌륭했고 뷰도 좋았어요 직원서비스가 조금 더 따뜻했으면 했는데 좀 딱딱한 느낌이었어요 그래도 불만은 아니에요</td><td>친구</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>1</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2023년 2월</td>
+<td>혼자치고는 비쌌지만 후회없어요</td><td class="contents">혼자 묵기엔 가격이 좀 있었는데 그래도 후회는 없어요 한강뷰가 너무 좋아서 이 가격 납득이 가요ㅋㅋ 조식이 맛있었고 직원분들도 친절했어요 다만 혼자라서 넓은 방이 약간 외롭기도 했어요ㅎㅎ 다음엔 연인이랑 와야겠다 생각했어요</td><td>단독</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>5</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2021년 2월</td>
+<td>비즈니스엔 좋은데 개인적으론 글쎄</td><td class="contents">업무상 접대용으로는 최고예요 분위기도 있고 음식도 훌륭하고요 근데 개인적으로 혼자 출장와서 묵기엔 가격 대비 내가 즐길수 있는게 별로 없었어요 수영장이나 스파를 이용하기엔 항상 피곤하게 일하고 와서ㅠ 시설이 좋아도 쓸 시간이 없으면 의미없달까요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>2</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2021년 12월</td>
+<td>두번째 방문인데 약간 실망</td><td class="contents">처음에 너무 좋았어서 재방문했는데 뭔가 달라진 느낌이에요 청결도가 처음보다 살짝 떨어진것같고 직원도 이전보다 덜 친절한것 같았어요 조식 메뉴도 예전보다 줄어든것같고요 아직도 나쁜 호텔은 아닌데 기대치가 높았던탓인지 아쉬웠어요</td><td>가족</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>8</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2022년 1월</td>
+<td>장단점이 명확한 호텔</td><td class="contents">장점: 위치 진짜 최고, 가격 합리적, 직원 친절 단점: 방 좁음, 방음 별로, 조식없음 관광목적이면 무조건 추천이에요 위치가 모든걸 커버해요 잠자리가 불편한건 좀 참을수 있어요 다만 소음에 민감하신분은 좀 생각해보셔야해요</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>11</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2023년 8월</td>
+<td>깔끔하고 무난한 비즈니스 숙소</td><td class="contents">딱히 나쁜점도 딱히 특별한점도 없는 호텔이에요ㅋㅋ 깔끔하고 직원 친절하고 와이파이 빠르고 조식 무난해요 출장용으로는 이 정도면 충분해요 위치가 좀 애매한게 아쉬워요 지하철역에서 좀 걸어요 그거 빼고는 무난하게 좋았어요</td><td>비지니스</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>7</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2021년 2월</td>
+<td>아이랑 오기엔 좀 아쉬워요</td><td class="contents">분위기는 좋은데 아이랑 오기엔 좀 아쉬운 부분이 있어요 키즈 시설이 전혀 없고 주변이 좀 어른 위주 상권이에요 아이가 좀 지루해했어요 방이 좁아서 아이랑 둘이 있기도 좀 답답했고요 부부둘이나 친구들이랑 오기엔 좋을것같아요 가족은 비추</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>13</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2020년 10월</td>
+<td>기대이하였어요</td><td class="contents">리뷰 좋아서 왔는데 생각보다 별로였어요 사진이랑 실제 방 분위기가 달랐고 인테리어가 낡아서 좀 실망이었어요 직원은 친절했고 위치는 좋았어요 조식이 맛있어서 그나마 다행이었고요 전반적으로 기대가 높았던게 문제인것같아요 무난한 호텔이에요</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>10</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2022년 6월</td>
+<td>한강뷰는 좋은데 비즈니스로는 글쎄</td><td class="contents">야경은 진짜 예쁜데 비즈니스 목적으로는 아쉬웠어요 책상이 작고 조명이 좀 어두워서 야간작업하기 불편했어요 와이파이는 괜찮았어요 조식은 훌륭했는데 그게 다예요 뷰 즐기러 오는건 좋은데 일하러 오기엔 좀 부족해요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>5</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2023년 7월</td>
+<td>5성급인데 혼자오니 대우가 달라요</td><td class="contents">혼자 왔더니 뭔가 대우가 다르다는 느낌을 받았어요 파트너랑 온 커플들이랑 확연히 다른 응대를 받는것같은 기분이 들었어요 물론 착각일수도 있지만요 시설은 당연히 좋고 조식도 맛있었어요 다만 혼자 여행자에게도 동등한 서비스가 됐으면 해요</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>6</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2020년 12월</td>
+<td>화려함 뒤에 허점이 있어요</td><td class="contents">로비는 엄청 화려한데 막상 방에 들어오니 좀 실망이었어요 방음이 별로라 옆방 얘기 다 들리고 수도꼭지에서 물소리도 좀 컸어요 조식은 맛있었어요 위치도 좋고요 겉모습만 보고 골랐다가 아쉬웠어요 다음엔 방 상태를 더 꼼꼼히 확인해야겠어요</td><td>친구</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>9</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2023년 1월</td>
+<td>커플여행으론 좀 무난해요</td><td class="contents">분위기가 너무 조용하고 차분해서 커플여행으론 약간 심심한 느낌이었어요 근처에 뭔가 즐길거리가 별로없고 저녁에 갈곳이 마땅치 않았어요 호텔 자체는 깔끔하고 직원도 친절한데 커플여행 특유의 설렘이 좀 부족했달까요 조식은 맛있었어요</td><td>커플</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>14</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2021년 10월</td>
+<td>분위기는 좋은데 불편함이</td><td class="contents">한옥 느낌 분위기는 진짜 좋아요 사진도 예쁘게 나왔어요 근데 실생활 불편함이 있어요 에어컨이 좀 구식이라 온도 조절이 잘 안됐고 욕실 샤워기 수압이 약했어요 친구들이랑 불편함 얘기하면서 웃었는데 그래도 추억은 됐어요ㅋㅋ</td><td>친구</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>15</td>
+</tr><tr>
+<td><span class="star">★★☆☆☆</span></td><td>2020년 6월</td>
+<td>아이 덕에 진상손님 됐어요</td><td class="contents">아이가 알레르기가 있어서 조식 메뉴 문의했더니 직원이 잘 모른다며 그냥 드시면 된다고 했어요 알레르기 있는 아이한테 그냥 드시면 된다고요? 더 확인해달라고 했더니 귀찮아하는 기색이 역력했어요 5성급이면 이런 케이스에 대한 매뉴얼이 있어야하지 않나요 정말 실망이었어요</td><td>가족</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>2</td>
+</tr><tr>
+<td><span class="star">★★☆☆☆</span></td><td>2023년 10월</td>
+<td>청결 문제 있어요</td><td class="contents">체크인해서 방에 들어갔더니 이전 투숙객 머리카락이 욕실 곳곳에 있었어요 침대 시트에도 뭔가 얼룩이 있었고요 프런트에 전화했더니 청소부 다시 보내줬는데 대충 닦고 갔어요 5성급에서 이런 청결 상태는 용납이 안되는거 아닌가요 환불 요청했더니 거절당했어요ㅠ</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>3</td>
+</tr><tr>
+<td><span class="star">★★☆☆☆</span></td><td>2022년 10월</td>
+<td>사전 약속이 지켜지지 않았어요</td><td class="contents">예약시 얼리체크인 가능하다고 확인받았는데 막상 가니까 안된다고 했어요 미팅이 오전부터 있어서 얼리체크인이 꼭 필요했는데 낭패였어요 로비에서 한참 기다리다 결국 근처 카페에서 준비했어요 사전에 확인한 사항이 지켜지지 않는건 기본이 안된거예요 정말 화났어요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>12</td>
+</tr><tr>
+<td><span class="star">★★☆☆☆</span></td><td>2023년 8월</td>
+<td>가격이 올랐는데 서비스는 그대로</td><td class="contents">예전에 왔을때보다 가격이 많이 올랐어요 근데 서비스나 시설은 그대로이거나 오히려 나빠진것같아요 조식 메뉴가 줄었고 직원 서비스도 이전만 못한것같아요 친구들이랑 왔는데 다들 실망했어요 가격올리면 그에 맞는 서비스도 올려주셔야죠</td><td>친구</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>10</td>
+</tr><tr>
+<td><span class="star">★☆☆☆☆</span></td><td>2020년 6월</td>
+<td>벌레가 나왔어요</td><td class="contents">방에서 벌레가 나왔어요 이게 말이 되나요 5성급에서 벌레가요ㅠㅠ 아이 있는 가족여행인데 아이가 겁먹어서 울었어요 프런트에 얘기했더니 방 바꿔준다고 했는데 새 방에서도 벌레 흔적이 있었어요 방역이 제대로 안되는것같아요 이 가격에 벌레라니 절대 다시 안가요</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>6</td>
+</tr><tr>
+<td><span class="star">★☆☆☆☆</span></td><td>2022년 7월</td>
+<td>예약 취소하고 싶었어요</td><td class="contents">체크인하러 갔더니 예약이 안돼있다고 했어요 분명히 확인 메일도 있고 카드 결제도 됐는데요 한시간동안 프런트에서 실랑이하다가 결국 다른방을 줬는데 예약한 방보다 작은 방이었어요 가격 차액 환불도 안해준다고 버텼어요 진짜 어이없는 경험이었어요ㅠ</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>14</td>
+</tr><tr>
+<td><span class="star">★☆☆☆☆</span></td><td>2021년 9월</td>
+<td>중요한 미팅을 망쳤어요</td><td class="contents">미팅 전날 왔는데 에어컨이 고장났어요 여름이라 방이 너무 더웠는데 수리가 다음날 오전이래요 땀을 뻘뻘 흘리며 잠을 못자고 다음날 중요한 미팅을 망쳤어요 이런 상황에 대한 보상이 전혀 없었고 사과도 형식적이었어요 다시는 이용 안할거예요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>11</td>
+</tr><tr>
+<td><span class="star">★☆☆☆☆</span></td><td>2022년 2월</td>
+<td>결제 문제 있어요</td><td class="contents">체크아웃하고 카드 확인했더니 예약금액보다 더 결제됐어요 물어보니까 부대시설 이용료라고 했는데 사용한적도 없어요 이의제기했더니 기록에 있다고 버티더라고요 결국 카드사 통해서 취소했는데 호텔에서 연락도 사과도 없었어요 최악의 경험이었어요</td><td>친구</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>15</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2020년 3월</td>
+<td>서울 출장의 필수코스가 됐어요</td><td class="contents">서울 올때마다 여기서 묵는게 루틴이 됐어요ㅋㅋ 직원분들이 얼굴 외워주셔서 이제 말 안해도 선호하는 방으로 배정해주세요 이런 단골 대우가 너무 좋아요 조식도 매번 맛있고 시설도 항상 깔끔해요 서울 출장이 기대되는 이유가 됐어요</td><td>비지니스</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>1</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 6월</td>
+<td>혼자 먹는 조식이 이렇게 행복할수가</td><td class="contents">혼자 조식 먹으러 갔는데 창가 자리로 안내해주셔서 뷰 보면서 먹었어요 직원분이 혼자 오셨냐고 말걸어주셔서 서울 관광지 얘기를 나눴어요 혼여인데 외롭지 않은 느낌이었어요 5성급의 진짜 의미는 이런 세심함인것같아요 또 오고 싶어요</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>2</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 12월</td>
+<td>임신중에 왔어요</td><td class="contents">임신 8개월인데 여행왔어요 직원분들이 임산부라고 하니까 엄청 배려해주셨어요 객실도 낮은층으로 바꿔주시고 식사할때도 앉기 편한 자리로 안내해주시고 베개도 여러개 챙겨주셨어요 이런 세심한 배려에 감동받았어요 아기 낳고 가족이랑 다시 오고 싶어요😊</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>3</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2020년 1월</td>
+<td>호캉스로 왔어요</td><td class="contents">요즘 핫한 호캉스 해보고 싶어서 왔어요 수영장에서 하루종일 놀고 룸서비스 시켜먹고 마사지도 받고 완전 힐링됐어요ㅎㅎ 밖에 한발짝도 안나가고 호텔에서만 있었어요ㅋㅋ 가격이 좀 아파서 별 4개지만 경험 자체는 최고였어요 나 자신을 위한 투자라고 생각해요</td><td>친구</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>4</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2022년 4월</td>
+<td>결혼기념일 10주년</td><td class="contents">10주년 기념으로 왔어요 처음 결혼기념일에 왔던 호텔이라 의미있었어요 직원분들이 10주년이라고 와인 보내주셔서 감동이었어요 시설은 예전과 비슷한데 서비스는 좀 더 형식적으로 변한것같아서 살짝 아쉬웠어요 그래도 의미있는 날을 보낼수 있어서 좋았어요</td><td>커플</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>6</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 2월</td>
+<td>새해 카운트다운 했어요🎆</td><td class="contents">새해 맞이로 왔는데 한강 불꽃놀이를 방에서 봤어요ㅠㅠ 너무 감동적이었어요 12시에 직원분들이 로비에서 새해 축하 이벤트도 해주셔서 샴페인도 마시고 너무 특별한 새해를 맞이했어요 평생 기억에 남을 새해가 될것같아요</td><td>커플</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>5</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2021년 12월</td>
+<td>혼자 강남 즐기러왔어요</td><td class="contents">쇼핑하러 강남 왔는데 숙소를 여기로 잡았어요 위치 진짜 최고예요 백화점 코앞이라 쇼핑하고 짐 던져놓고 또 나가고를 반복했어요ㅋㅋ 방이 좀 작지만 짐 두기엔 충분했어요 조식이 든든해서 아침에 에너지 넘치게 쇼핑할 수 있었어요</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>9</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 11월</td>
+<td>외국인 친척 모시고</td><td class="contents">해외에 사시는 외국인 친척분 모시고 명동 구경왔어요 명동 위치가 진짜 완벽해서 한국 음식도 먹고 쇼핑도 하고 K뷰티도 경험했어요ㅎㅎ 방은 좀 작았지만 외국인 친척분이 한국 호텔 체험 재미있어 하셨어요 다음에 오시면 또 여기예요</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>11</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2020년 6월</td>
+<td>럭셔리한데 아이들이 지루해해요</td><td class="contents">어른들은 완벽한데 아이들이 지루해했어요 키즈룸이나 아이 놀거리가 전혀 없고 레스토랑 메뉴도 어른 위주예요 수영장은 있는데 성인 위주라 아이들이 좀 눈치보였어요 5성급이면 키즈 서비스도 갖춰야하지 않나 싶어요 어른들끼리 오기엔 최고예요</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>4</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 6월</td>
+<td>혼자 작업하러 왔어요</td><td class="contents">프리랜서라서 작업실 삼아 왔어요ㅋㅋ 이태원 분위기가 영감을 주거든요 방이 독특한 인테리어라 기분전환도 되고 근처 카페에서 작업하다가 방에서 쉬고의 반복이 좋았어요 직원분들도 작가인가봐요? 하고 물어봐주셔서 웃겼어요ㅋㅋ 다음에도 작업 막힐때 와야겠어요</td><td>단독</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>13</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2022년 10월</td>
+<td>소소한 힐링 여행</td><td class="contents">화려하지 않아도 되는 여행이 필요했어요 조용하고 가든뷰 보면서 책읽고 친구랑 수다떨고 딱 그런 여행이었어요 특별한거 없는게 오히려 특별했달까요 직원분들도 과하지 않게 편안하게 대해주셨어요 이런 쉬어가는 여행이 가끔 필요한것같아요</td><td>친구</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>14</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 1월</td>
+<td>장기출장 한달 묵었어요</td><td class="contents">한달 장기 출장으로 묵었어요 처음엔 호텔에서 한달이 괜찮을까 걱정했는데 직원분들이 너무 잘 챙겨주셔서 집같은 편안함이 생겼어요 한달치 할인도 해주시고 세탁 서비스도 도와주셨어요 조식 매일 먹다보니 직원분들이랑 얘기도 하게됐어요 끝나고 아쉬울정도였어요</td><td>비지니스</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>8</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2023년 3월</td>
+<td>전에 왔을때보다 못해요</td><td class="contents">3년전에 왔을때랑 비교하면 좀 떨어졌어요 그때는 진짜 좋았는데 직원이 많이 바뀐것같고 서비스 수준이 달라진 느낌이에요 시설은 그대로인데 관리가 좀 소홀해진것같기도 하고요 조식 메뉴도 줄어든것같아요 예전 느낌 기대하고 왔다면 실망할수도 있어요</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>7</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 6월</td>
+<td>환경부 출장으로 왔어요</td><td class="contents">환경 관련 출장으로 왔는데 이 호텔 공원 바로 옆이라 아침마다 산책할수 있어서 너무 좋았어요 업무 스트레스를 아침 산책으로 풀었어요 조식도 건강한 메뉴 많아서 좋았고요 와이파이도 빠르고 직원분들도 친절했어요 다음 이 지역 출장에도 무조건 여기예요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>10</td>
+</tr><tr>
+<td><span class="star">★★☆☆☆</span></td><td>2020년 4월</td>
+<td>예약 취소 정책이 너무 가혹해요</td><td class="contents">부득이한 사정으로 취소해야 했는데 취소 수수료가 전액이었어요 사정을 설명했는데 규정상 불가하다는 말만 반복했어요 5성급이면 이런 예외 상황에 좀 더 유연하게 대처해야하는거 아닌가요 시설은 훌륭하겠지만 이 일로 다시는 이용하고 싶지 않아요</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>1</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 11월</td>
+<td>외국 여행객에게 추천했어요</td><td class="contents">해외 여행을 자주 다니는데 서울 올때마다 종로 투어를 해요 여기는 종로 투어의 베이스캠프로 완벽해요 한국 전통 분위기를 좋아하는 외국 친구들 데려오면 항상 반응이 좋아요 조식이 한식이라 외국 손님들 체험하기도 좋고요 서울 여행의 묘미를 느낄수 있어요</td><td>가족</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>15</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2020년 9월</td>
+<td>술게임 하다가 직원한테 혼났어요</td><td class="contents">친구들이랑 늦게까지 시끄럽게 놀다가 직원한테 주의받았어요ㅋㅋ 당연한 일인데 직원분이 너무 정중하게 말씀하셔서 오히려 미안했어요 그 이후로 조용히 있었는데 직원분이 뭐 필요한거 없냐고 음료 갖다주셔서 감동받았어요 혼내고 음료 주는 직원 처음봤어요ㅋㅋ 좋은 경험이었어요</td><td>친구</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>6</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 2월</td>
+<td>남편이 이혼하기싫으면 가라고 했어요ㅋㅋ</td><td class="contents">남편이 강남에서 미팅있다고 호텔 잡아줬는데 너무 좋아서 제가 혼자 또 왔어요ㅋㅋ 남편이 이혼하기 싫으면 다음엔 같이 가라고 했어요ㅋㅋㅋ 위치도 좋고 방도 깔끔하고 서비스도 좋아요 이번엔 둘이 왔는데 남편도 인정하더라고요 우리 단골 확정이에요</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>9</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2023년 10월</td>
+<td>스위트룸이 이게 맞나요</td><td class="contents">스위트룸 예약했는데 막상 보니 생각보다 훨씬 작았어요 홈페이지 사진이랑 너무 달랐어요 직원한테 물어보니까 맞다고 했는데 이게 스위트룸이라고요? 시설은 나쁘지 않았고 서비스도 괜찮았어요 근데 스위트룸이라는 이름값을 못하는것같았어요 가격이 아까웠어요</td><td>커플</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>4</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2020년 11월</td>
+<td>뷰 보면서 그림그렸어요🎨</td><td class="contents">미술하는 사람인데 서울 야경 스케치하러 왔어요 방에서 보이는 야경이 너무 아름다워서 몇시간이고 그렸어요 직원분이 뭐하시냐고 관심가져주셔서 얘기도 나눴어요ㅎㅎ 이런 경험을 줄수 있는 숙소가 얼마나 될까요 예술하는 분들에게 강추해요</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>12</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2023년 12월</td>
+<td>늦은 퇴근후 혼자 쉬기</td><td class="contents">야근 연속으로 지쳐서 집에 가기싫어서 왔어요ㅋㅋ 즉흥으로 예약했는데 직원분이 당일예약이라도 친절하게 맞아주셨어요 아무것도 안하고 침대에서 뒹굴다가 조식먹고 퇴근했어요 가끔 이런 일탈이 필요한것같아요 직원분 덕에 피로가 풀렸어요</td><td>단독</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>7</td>
+</tr><tr>
+<td><span class="star">★★☆☆☆</span></td><td>2022년 5월</td>
+<td>기념일인데 준비가 하나도 없었어요</td><td class="contents">미리 기념일이라고 요청을 했는데 아무것도 준비가 안됐어요 물어보니까 요청 받은적 없다고 하는데 이메일 기록이 있어요 결국 아무것도 없이 그냥 자고 왔어요 기념일을 평범하게 보낸거 아쉬움도 있고 약속을 지키지 않은 호텔에 화도 나요 다시는 안올거예요</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>13</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 3월</td>
+<td>미세먼지 없는날 갔어요</td><td class="contents">운이 좋게 날씨 맑은날 갔는데 한강뷰가 진짜 환상적이었어요 미세먼지가 없어서 서울 전경이 다 보였어요 아이들이 랜드마크 찾는 놀이를 했어요ㅋㅋ 이런 날 한강뷰 호텔에 오는게 로또같아요 조식도 맛있고 직원서비스도 완벽했어요</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>5</td>
+</tr><tr>
+<td><span class="star">★☆☆☆☆</span></td><td>2020년 12월</td>
+<td>소지품 분실 사건</td><td class="contents">체크아웃하고 나서 노트북을 두고온걸 알았어요 바로 전화해서 돌아갔는데 방을 이미 청소해서 모른다고 했어요 가방에 넣어둔 노트북이 그냥 사라진거예요 경찰 신고했는데 호텔측에서 협조를 전혀 안해줬어요 CCTV도 안보여준다고 하고요 진짜 최악이에요 법적 대응 고려중입니다</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>8</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 9월</td>
+<td>봄에 벚꽃 시즌에 왔어요🌸</td><td class="contents">벚꽃 시즌에 공원 근처 호텔 찾다가 여기 왔어요 가든뷰에서 벚꽃이 보였어요ㅠㅠ 너무 예뻐서 사진 백장 찍었어요ㅋㅋ 직원분이 벚꽃 가장 예쁜 시간대 알려주셔서 아침 일찍 공원 나가서 구경했어요 봄에 오시는 분들 이 시기 강추예요 최고의 계절이었어요</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>14</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2023년 7월</td>
+<td>아이 수학여행 전날 묵었어요</td><td class="contents">내일 수학여행 출발하는 아이 때문에 서울 왔다가 하룻밤 묵었어요 아이가 너무 설레서 잠을 못자더라고요ㅋㅋ 방이 넓고 쾌적해서 다음날 피곤하지 않게 잘 잘수 있었어요 조식도 든든하게 먹었어요 직원분이 아이한테 내일 잘 다녀오라고 해줘서 아이가 너무 좋아했어요ㅎㅎ</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>1</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2020년 12월</td>
+<td>외국에서 유학하다 돌아와서</td><td class="contents">유학하다 오랜만에 한국왔어요 친구가 여기 예약해줬는데 진짜 한국 온게 실감나는 호텔이에요ㅋㅋ 서비스도 한국스럽게 세심하고 조식도 한식 있어서 너무 좋았어요 그리웠던 한국 느낌 제대로 받았어요 오래 있고 싶었어요</td><td>친구</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>2</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2020년 3월</td>
+<td>명동이 공사중이었어요</td><td class="contents">호텔은 괜찮은데 명동 거리 공사때문에 소음이 너무 심했어요 낮에는 공사 소리때문에 쉬기가 힘들었어요 호텔 잘못은 아닌데 이런거 미리 공지해줬으면 어떨까 싶어요 방음이 좀 더 됐으면 좋겠고요 직원서비스는 괜찮았어요 조식도 무난했어요</td><td>커플</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>11</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 5월</td>
+<td>매년 여기서 기념일 보내요</td><td class="contents">3년째 기념일을 여기서 보내고 있어요 이제 직원분들이랑 친해져서 얼굴보면 반겨주셔요ㅋㅋ 매번 올때마다 조금씩 더 나아지는 느낌이에요 서비스도 시설도 꾸준히 관리되는것같아서 믿음이 가요 앞으로도 계속 여기서 기념일 보낼거예요💕</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>4</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 9월</td>
+<td>졸업여행으로 왔어요🎓</td><td class="contents">대학 졸업하고 친구들이랑 졸업여행으로 왔어요 4년간 고생한 우리에게 선물이었어요ㅋㅋ 방이 깔끔하고 조식도 맛있어서 아침부터 기분좋게 시작했어요 직원분들이 졸업축하해줘서 감동이었어요 사진도 많이 찍고 좋은 추억이 됐어요</td><td>친구</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>7</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2021년 1월</td>
+<td>벚꽃 피크닉 다녀왔어요🌸</td><td class="contents">봄에 친구들이랑 공원 피크닉하러 왔어요 호텔 바로 앞 공원에서 돗자리 깔고 놀았어요ㅋㅋ 호텔에서 피크닉 바구니 빌려주셔서 너무 좋았어요 귀찮을수도 있는 서비스인데 챙겨주셔서 감사했어요 방은 좁지만 이런 서비스가 별 4개를 유지해주는것같아요</td><td>친구</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>10</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 4월</td>
+<td>팀장님 승진 축하 회식</td><td class="contents">팀장님 승진 축하로 팀 저녁식사 왔어요 레스토랑 분위기가 너무 좋았고 음식도 맛있었어요 직원분들이 팀 분위기에 맞게 여러가지 챙겨주셔서 팀장님도 기분좋아하셨어요 식사 후 로비에서 단체사진도 찍었어요ㅎㅎ 회사 행사용으로 추천해요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>6</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2021년 1월</td>
+<td>기대보다 살짝 아쉬웠어요</td><td class="contents">친구가 강력 추천해서 왔는데 친구 기준이 높은건지 저 기준이 낮은건지 그냥 무난했어요ㅋㅋ 시설은 당연히 훌륭하고 서비스도 나쁘지 않았는데 특별히 감동받은 부분이 없었어요 조식은 맛있었어요 이 정도면 나쁘지 않은데 가격 생각하면 좀 더 특별했으면 싶어요</td><td>친구</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>2</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2020년 8월</td>
+<td>한국 문화 체험하러 왔어요</td><td class="contents">외국인 남자친구 데리고 한국 전통 느낌 체험하러 왔어요 남자친구가 한옥 분위기에 엄청 감동받았어요ㅎㅎ 조식 한식 먹으면서 젓가락질 연습도 했어요ㅋㅋ 직원분들이 영어로도 안내해주셔서 너무 감사했어요 남자친구가 한국 더 좋아하게 된것같아요</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>15</td>
+</tr><tr>
+<td><span class="star">★★☆☆☆</span></td><td>2021년 7월</td>
+<td>아이 생일 이벤트가 없었어요</td><td class="contents">아이 생일이라고 3일전에 이메일로 요청했는데 체크인하니까 아무것도 없었어요 직원한테 물어보니까 못받았다고 했어요 급하게 케이크라도 준비해달라고 했더니 30분 기다리래요 아이가 기다리는 내내 설레했는데 케이크가 생일케이크가 아니라 일반 케이크가 왔어요 아이가 실망했어요ㅠ</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>9</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2022년 7월</td>
+<td>야경은 최고인데 시설이 아쉬워</td><td class="contents">야경 진짜 예쁜데 시설이 좀 낡았어요 욕실 환풍기가 너무 시끄럽고 드라이어도 성능이 약해요 아이랑 왔는데 아이가 갖고싶은 호텔이라고 하는데ㅋㅋ 뷰 때문인것같아요 직원분들은 친절했고 조식도 괜찮았어요 리노베이션하면 더 좋을것같은 호텔이에요</td><td>가족</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>12</td>
+</tr><tr>
+<td><span class="star">★☆☆☆☆</span></td><td>2022년 12월</td>
+<td>주차 사고 났어요</td><td class="contents">주차장에 차 댔는데 옆차 문짝에 긁힌 자국이 생겼어요 CCTV 확인 요청했더니 해상도 문제로 불분명하다고 했어요 호텔측 과실이 아니라는 말만 했고 보험 처리도 도와주지 않았어요 주차장이 너무 좁은데 관리가 전혀 안되는것같아요 이 일로 엄청 스트레스받았어요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>10</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 4월</td>
+<td>이 호텔 시 한편 썼어요</td><td class="contents">작가인데 이 호텔에서 영감받아서 시를 한편 썼어요ㅎㅎ 가든뷰가 너무 평화롭고 아름다워서 글이 술술 나왔어요 직원분이 제가 매일 노트에 뭔가 쓰는거 보시고 작가시냐고 물어봐 주셨어요 이런 세심한 관찰에 감동받았어요 창작하시는 분들께 강추해요</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>14</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 4월</td>
+<td>명동 야식 탐방 베이스캠프</td><td class="contents">명동 야식투어 목적으로 왔어요ㅋㅋ 밤마다 나가서 먹고 들어오고를 반복했어요 호텔이 명동 한가운데라 새벽에도 안전하게 다닐수 있었어요 방은 좁지만 자는것만으로도 충분했어요 명동 야식 좋아하시는분들 위치 하나는 진짜 최고예요</td><td>단독</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>11</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2020년 10월</td>
+<td>혼자 고급 스테이크 먹으러</td><td class="contents">레스토랑 스테이크가 유명하다고 해서 혼자 먹으러 왔어요ㅋㅋ 스테이크 진짜 맛있었어요 직원분이 와인 페어링 추천해줘서 같이 마셨는데 너무 좋았어요 식사 하나 때문에 투숙까지 했는데 후회없어요 방도 넓고 쾌적해서 잘 쉬었어요 다음에 또 먹으러 올거예요</td><td>단독</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>1</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2022년 12월</td>
+<td>애매한 호텔이에요</td><td class="contents">나쁘지 않은데 딱히 추천하기도 애매한 호텔이에요ㅋㅋ 위치는 좋은데 시설이 평범하고 서비스도 그냥 무난해요 가격도 애매하게 비싼것같고요 이 가격이면 좀 더 좋은 호텔을 갈수 있을것같은데 싶은 생각이 들었어요 출장이라 회사 카드로 냈는데 개인돈이었으면 더 아까웠을것같아요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>8</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 5월</td>
+<td>이태원 할로윈에 왔어요🎃</td><td class="contents">할로윈 시즌에 이태원 왔는데 여기가 딱이었어요 호텔도 할로윈 데코가 되어있어서 너무 예뻤어요 방에서 이태원 거리 보면서 코스튬 입은 사람들 구경했어요ㅋㅋ 직원분들도 코스튬 입고 있어서 분위기 최고였어요 할로윈엔 이태원 이 호텔이 답이에요🎃</td><td>커플</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>13</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2023년 7월</td>
+<td>야간 보고서 쓰면서 한강봤어요</td><td class="contents">야근 출장인데 보고서 쓰면서 한강뷰 보니까 스트레스가 덜했어요ㅎㅎ 이런게 환경의 힘인것같아요 와이파이도 빠르고 책상도 넓어서 업무 효율이 올라갔어요 조식 든든하게 먹고 오전 미팅도 잘 됐어요 힘든 출장을 버티게 해준 호텔이에요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>5</td>
+</tr><tr>
+<td><span class="star">★★☆☆☆</span></td><td>2022년 9월</td>
+<td>방이 너무 좁았어요</td><td class="contents">가족 4명인데 트윈베드 방 예약했어요 아이들이 키가 커서 트윈베드 주면 부부가 각자 자야해요 예약할때 설명이 있었으면 좋겠어요 방에 들어서니까 진짜 숨막힐 정도로 좁았어요 큰방으로 업그레이드 요청했더니 추가요금이 상당했어요 가족여행으로는 방 크기 꼭 확인하세요</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>7</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2020년 1월</td>
+<td>럭셔리 체험 시켜줬어요</td><td class="contents">아이가 나중에 크면 좋은 호텔에서 자고싶다고 해서ㅋㅋ 미리 경험 시켜줬어요 아이 눈이 휘둥그레해져서 너무 귀여웠어요ㅎㅎ 직원분들이 아이를 귀하게 대해줘서 아이가 진짜 왕이 된 기분이었대요ㅋㅋ 나중에 크면 자기가 부모님 데려온다고 했어요</td><td>가족</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>4</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 6월</td>
+<td>겨울에 왔는데 너무 예뻤어요❄️</td><td class="contents">겨울에 왔는데 크리스마스 데코가 너무 예뻐서 감탄했어요 로비가 동화나라같았어요ㅎㅎ 방도 따뜻하고 아늑했어요 야경에 눈까지 내려서 진짜 영화같은 장면이었어요 남자친구가 이런데서 프로포즈하면 안되냐고 해서 다음에 또 와야할것같아요ㅋㅋ</td><td>커플</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>2</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2020년 2월</td>
+<td>업그레이드가 되었다 안됐다</td><td class="contents">예약할때 업그레이드 가능하다는 안내받았는데 막상 가니까 그런 안내한적 없다고 했어요 기억이 확실한데 서로 말이 달라서 당황스러웠어요 결국 기본방 받았는데 그 방도 나쁘진 않았어요 이런 소통 문제가 좀 아쉬웠어요 시설과 조식은 만족했어요</td><td>비지니스</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>6</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 8월</td>
+<td>엄마 생일여행으로 왔어요🎂</td><td class="contents">엄마 60세 생일로 왔어요 직원분들이 케이크에 초 꽂아주시고 생일 파티 세팅도 도와주셨어요 엄마가 평생 처음 이런 서비스 받아본다고 감동하셨어요ㅠㅠ 조식도 엄마가 좋아하는 메뉴가 있어서 잘드셨어요 비싼돈 썼는데 엄마 표정보니까 충분한 가치가 있었어요</td><td>가족</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>9</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2020년 12월</td>
+<td>역사학자 출장으로 왔어요</td><td class="contents">역사 연구차 종로 방문이 잦은데 여기가 연구 분위기랑 딱 맞아요ㅋㅋ 호텔 자체도 역사적 분위기가 있고 근처에 유적지가 많아서 걸어다니기 편해요 다만 시설이 좀 오래돼서 불편한 부분이 있어요 에어컨이 구식이고 욕실도 좀 낡았어요 분위기는 좋지만 시설 개선이 필요해요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>15</td>
+</tr><tr>
+<td><span class="star">★☆☆☆☆</span></td><td>2021년 1월</td>
+<td>뷰만 좋고 나머지 다 별로</td><td class="contents">체크인할때부터 기분이 안좋았어요 직원이 예약 내용 확인도 안하고 그냥 방 키 주더니 나중에 방이 틀렸다고 다시 와달래요 방은 뷰가 예쁜데 청결 상태가 별로였어요 욕실에 곰팡이 흔적이 있었어요 뷰 하나 때문에 이 가격을 내기엔 너무 아깝습니다</td><td>커플</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>5</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 9월</td>
+<td>짧은 혼행 힐링됐어요</td><td class="contents">1박 짧은 혼행이었는데 충분히 힐링됐어요 체크인하고 조식 먹고 시내 구경하고 저녁에 돌아와서 뒹굴뒹굴하다 잠드는게 완벽한 하루였어요 직원분들이 혼자오셨어도 불편한것없냐고 챙겨주셔서 좋았어요 짧은 여행에 딱 맞는 곳이에요</td><td>단독</td>
+<td>없음</td>
+<td><span class="badge-4">4성급</span></td><td>8</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2022년 1월</td>
+<td>새벽 일찍 출발해야해서</td><td class="contents">새벽 5시 비행기라 근처에 묵었어요 얼리체크아웃 부탁드렸더니 흔쾌히 해주셨어요 새벽에 조용히 체크아웃하는데 직원분이 미리 준비된 간단한 샌드위치 봉투 주셔서 너무 감동이었어요 이런 세심한 서비스 처음 받아봤어요 다음에도 이 쪽 올 일 있으면 무조건 여기예요</td><td>비지니스</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>12</td>
+</tr><tr>
+<td><span class="star">★★★★☆</span></td><td>2020년 12월</td>
+<td>클라이언트 미팅 장소로</td><td class="contents">클라이언트랑 미팅 장소로 호텔 카페를 이용했어요 분위기가 독특하고 감각적이어서 클라이언트가 좋아했어요 커피도 맛있었고 분위기도 대화하기 좋았어요 미팅이 잘 풀린건 장소 덕분인것같아요ㅎㅎ 다음 중요한 미팅에도 여기 이용할것같아요</td><td>비지니스</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>13</td>
+</tr><tr>
+<td><span class="star">★★★☆☆</span></td><td>2021년 10월</td>
+<td>이름만 럭셔리예요</td><td class="contents">5성급 럭셔리라는 이름이 무색했어요 직원 서비스가 기계적이고 냉정한 느낌이었어요 룸서비스가 늦게 왔고 요청한 내용이 잘못 전달됐어요 시설은 훌륭한데 하드웨어만 좋고 소프트웨어가 안따라오는 느낌이에요 가격을 생각하면 더 따뜻한 서비스를 기대했어요</td><td>비지니스</td>
+<td>없음</td>
+<td><span class="badge-5">5성급</span></td><td>4</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2021년 9월</td>
+<td>돌잔치 전날 가족 모임</td><td class="contents">아이 돌잔치 전날 가족들이 다같이 모였어요 할머니 할아버지 이모 삼촌 다 왔는데 큰방 두개 잡아서 편하게 쉬었어요 다음날 돌잔치가 더 설렜어요 조식도 다같이 먹으면서 아이 돌 이야기 꽃피웠어요 이런 행복한 기억을 만들어준 호텔이에요</td><td>가족</td>
+<td>있음</td>
+<td><span class="badge-5">5성급</span></td><td>1</td>
+</tr><tr>
+<td><span class="star">★★☆☆☆</span></td><td>2020년 8월</td>
+<td>친구 생일파티 망했어요</td><td class="contents">친구 생일 파티 이벤트 부탁했는데 시간도 늦게 왔고 케이크도 제가 요청한거랑 달랐어요 친구한테 미안했어요 직원한테 말하니까 죄송하다는 말 한마디가 다였어요 이벤트 비용도 돌려달라고 했는데 규정상 불가하다고 했어요 다음엔 이벤트는 직접 준비하겠어요</td><td>친구</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>14</td>
+</tr><tr>
+<td><span class="star">★★★★★</span></td><td>2020년 6월</td>
+<td>작은 사치를 부렸어요</td><td class="contents">평소엔 비즈니스호텔만 다니는데 이번엔 좀 더 좋은 곳으로 왔어요 공원뷰 보면서 아침 먹는게 이렇게 좋을줄 몰랐어요 일상에서 벗어나 작은 사치를 부리는게 얼마나 재충전이 되는지 알았어요ㅎㅎ 직원분들도 따뜻하게 대해주셔서 더 좋았어요 가끔 이런 여행이 필요해요</td><td>단독</td>
+<td>있음</td>
+<td><span class="badge-4">4성급</span></td><td>10</td>
+</tr></tbody></table>
+</div>
+<footer>텍스트분석기법 &nbsp;|&nbsp; 2026-1학기</footer>
+</body></html>
