@@ -4,6 +4,8 @@ Korean hotel review dataset for crawling practice in Text Analysis course (2026 
 
 400 synthesized hotel reviews across 4 pages (100 reviews per page).
 
+- URL: https://bunoheb.github.io/textanalysis_assignment/
+
 ## Columns
 | Column | Description |
 |--------|-------------|
